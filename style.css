@@ -1,0 +1,91 @@
+:root,body {
+    margin: 0;
+    padding: 0;
+
+    
+      
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+   font-family:'poppins',sans-serif;   
+    --total-height: 700px;
+    --total-width: 760px;
+    --left-section-width: 300px;
+    --right-section-width: calc(var(var(--total-width)var(--left-section-width)));
+}
+.container {
+
+    max-width: 760px;
+    min-height: 700px;
+    display: flex;
+    flex-direction: row;
+    background-color: burlywood;
+    border-bottom: 1rem solid;
+    border-top:1rem solid ;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    
+    
+}
+.left-section {
+   min-width: var(--left-section-width);
+   height: 100%;
+   
+
+}
+.right-section {
+width: 460px;
+height: 100%;
+background-color: rgba(125, 194, 199, 0.055)
+
+}
+.education-section {
+background-color: var(--education-section-bg);
+height: 350px;
+
+}
+.bio-section {
+background-color: var(--bio-section-bg);
+height: 350px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-decoration: underline
+
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+.bio-section .display-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.bio-section .display-pic img {
+    width: 180px;
+    height: auto;
+    object-fit: cover;
+   
+}
+.skill-section {
+    background-color: var(--skill-section-bg);
+height: 200px;
+
+}
+.projects-section {
+    background-color: var(--projects-section-bg);
+    height: 300px;
+
+}
+.personal-section {
+    background-color: var(--personal-section-bg);
+    height: 200px;
+    
+}
+h2 {
+    text-align: center;
+     text-decoration: underline;
+}
